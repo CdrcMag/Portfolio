@@ -54,6 +54,15 @@ h2
 p
 {
 	font-family: "futura-pt";
+	font-size: 1.1em;
+	text-align: center;
+}
+.p_text
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+  height: 100px;
 }
 
 img
@@ -61,5 +70,10 @@ img
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 90%;
+
+}
+
+hr
+{
+	width: 50%;
 }
