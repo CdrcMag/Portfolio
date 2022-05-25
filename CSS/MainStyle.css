@@ -22,7 +22,7 @@
   text-align: center;
   padding: 14px;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
   font-family: "futura-pt";
 }
@@ -61,8 +61,7 @@ p
 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 600px;
-  height: 100px;
+	width: 50vw;
 }
 
 img
