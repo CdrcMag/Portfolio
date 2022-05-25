@@ -77,3 +77,8 @@ hr
 {
 	width: 50%;
 }
+
+img:hover
+{
+	opacity: 0.8;
+}
