@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="Assets/Favicon.ico">
+
+    <title>Cédric Maggay</title>
+
+   
+    <!-- Custom styles for this template -->
+    <link href="../CSS/MainStyle.css" rel="stylesheet">
+  
+  </head>
+
+
+<body>
+  <!--NavBar-->
+<div id="navbar">
+	  <a href="../index.html">Portfolio</a>
+	  <a href="#pres">Présentation</a>
+	  <a href="#contact">Contact</a>
+</div> 
+
+<h2>HexaGo</h2>
+<hr>
+<img src="../docs/assets/img/hexago.png"><!-- Vidéo d'HexaGo-->
+
+
+
+<h2>Détails</h2>
+<hr>
+
+<h2>Sur HexaGo</h2>
+<hr>
+
+
+
+
+
+
+
+<!----------------------------------------------------------------------------------------------------->
+<h2 id="contact">Contact</h2>
+<hr>
+<div class="p_text">
+<p>
+Contactez moi à l'adresse mail suivante : <a href="mailto:cdrcmag@outlook.fr">cdrcmag@outlook.fr</a>
+</p>
+</div>
+<!----------------------------------------------------------------------------------------------------->
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<script type="text/javascript">
+// When the user scrolls the page, execute AttachScrollBar
+window.onscroll = function() {AttachScrollBar()};
+// Get the navbar
+var navbar = document.getElementById("navbar");
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function AttachScrollBar() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+} 
+</script>
+
+
+	</body>
+</html>
+
