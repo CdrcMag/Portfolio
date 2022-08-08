@@ -66,13 +66,17 @@ p
 	text-align: center;
 }
 
+img:hover
+{
+	opacity: 0.25;
+}
+
 img
 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 10px;
-
 }
 
 hr
@@ -80,16 +84,14 @@ hr
 	width: 50%;
 }
 
-.container:hover
-{
-	filter: grayscale(90%);
-}
+
 
 .container {
   position: relative;
   text-align: center;
   color: white;
   font-size: 2em;
+  /*border: 2px solid black;*/	
 }
 
 .TopText
@@ -124,4 +126,30 @@ li
 .t
 {
 	
+}
+
+.container {
+  position: relative;
+  text-align: center;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: "futura-pt";
+  font-size: 24px;
+  font-weight: bold;
+
+}
+.down {
+  position: absolute;
+  bottom: 8px;
+  left: 45%;
+  color: black;
+  font-family: "futura-pt";
+  font-weight: bolder;
+  font-size: 0.6em;
 }
