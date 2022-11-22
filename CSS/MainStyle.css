@@ -1,0 +1,163 @@
+ @font-face 
+{
+	font-family:futura-pt;
+	src:url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/l?subset_id=2&fvd=n3&v=3) format("woff2"),
+	url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/d?subset_id=2&fvd=n3&v=3) format("woff"),
+	url(https://use.typekit.net/af/ae4f6c/000000000000000000010096/27/a?subset_id=2&fvd=n3&v=3) format("opentype");
+	font-weight:300;
+	font-style:normal;
+}
+
+ /* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: center;
+  display: inline-flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "futura-pt";
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+} 
+
+h2
+{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: sans-serif;
+
+}
+p
+{
+	font-family: "futura-pt";
+	font-size: 1.1em;
+	text-align: center;
+}
+.p_text
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80vw;
+	text-align: center;
+}
+
+img:hover
+{
+	opacity: 0.25;
+}
+
+img
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+hr
+{
+	width: 50%;
+}
+
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  /*border: 2px solid black;*/	
+}
+
+.TopText
+{
+	position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.text_competences
+{
+	font-size: 2em;
+	font-family: "futura-pt";
+	font-weight: bold;
+}
+li
+{
+	font-family: "futura-pt";
+}
+
+#centeredList
+{
+	width: 80vw;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-family: "futura-pt";
+}
+
+.t
+{
+	
+}
+
+.container {
+  position: relative;
+  text-align: center;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: "futura-pt";
+  font-size: 24px;
+  font-weight: bold;
+
+}
+.down {
+  position: absolute;
+  bottom: 8px;
+  left: 45%;
+  color: black;
+  font-family: "futura-pt";
+  font-weight: bolder;
+  font-size: 0.5em;
+}
+
+a 
+{
+	font-family: color: black;
+  font-family: "futura-pt";
+  font-weight: bolder;
+  font-size: 1.3em;;
+}
